@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function openMobileNavigation() {
+            const nav = document.getElementById("mob-nav")
+            nav.style.display = "flex";
+            document.body.style.overflow = "hidden";
+        }
+
+        function closeMobileNavigation() {
+            const nav = document.getElementById("mob-nav")
+            nav.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="group-1-imgs">
+        <div class="bg-img-food">
+            <img src="img/1-1p.png" alt="">
+        </div>
+        <div class="bg-img-divider">
+            <img src="img/1-3p.png" alt="">
+        </div>
+        <div class="bg-img-grey">
+            <img src="img/1-2p.png" alt="">
+        </div>
+        <div class="bg-img-grey small-images">
+            <div class="transparent-image-1">
+                <img src="img/vector_smart_object_1.png"></img>
+            </div>
+            <div class="transparent-image-2">
+                <img src="img/vector_smart_object_2.png"></img>
+            </div>
+            <div class="transparent-image-3">
+                <img src="img/vector_smart_object_3.png"></img>
+            </div>
+            <div class="transparent-image-4">
+                <img src="img/vector_smart_object_4.png"></img>
+            </div>
+            <div class="transparent-image-5">
+                <img src="img/vector_smart_object_5.png"></img>
+            </div>
+            <div class="transparent-image-6">
+                <img src="img/vector_smart_object_6.png"></img>
+            </div>
+            <div class="transparent-image-7">
+                <img src="img/vector_smart_object_1.png"></img>
+            </div>
+            <div class="transparent-image-8">
+                <img src="img/vector_smart_object_1.png"></img>
+            </div>
+            <div class="transparent-image-9">
+                <img src="img/vector_smart_object_1.png"></img>
+            </div>
+        </div>
+        <header class="group-1">
+            <div class="toolbar-group">
+                <div class="logo-img"><img class="logo" src="img/yourlogo.png" alt="" height="37"></div>
+                <nav class="nav-items">
+                    <ul class="nav-list-group">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Product</a>
+                        </li>
+                        <li>
+                            <a href="#">Promo</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <img class="search" src="img/search.png" alt="" height="25">
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="mobile-nav">
+                    <div>
+                        <img class="search" src="img/search.png" alt="" height="25">
+                    </div>
+                    <div onclick="openMobileNavigation()" class="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 24 24"
+                            fill="none">
+                            <path d="M4 18L20 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                            <path d="M4 12L20 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                            <path d="M4 6L20 6" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                </nav>
+            </div>
+            <div id="mob-nav" class="mobile-navigation">
+                <div onclick="closeMobileNavigation()" class="cross">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon"
+                        style="width: 2rem; height: 2rem;vertical-align: middle;fill: currentColor;overflow: hidden;"
+                        viewBox="0 0 1024 1024" version="1.1">
+                        <path
+                            d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                    </svg>
+                </div>
+                <nav class="mobile-navigation-items">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Product</a>
+                        </li>
+                        <li>
+                            <a href="#">Promo</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="group-1-text-wrap">
+            <div class="imaginary"></div>
+            <div class="group-1-text">
+                <div class="text-2">
+                    <h2 class="title">FlavourQuest</h2>
+                    <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia
+                        odio vitae vestibulum vestibulum.</p>
+                </div>
+                <div class="order-now-flex">
+                    <div class="order-now-button">
+                        <p>ORDER NOW</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- *************group 2************** -->
+
+
+    <div class="group-2">
+        <div class="group-2-1">
+            <div class="group-2-heading">
+                <p class="title-2">Best Seller</p>
+                <p class="title-2-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio
+                    vitae
+                    vestibulum vestibulum.</p>
+            </div>
+        </div>
+        <div class="group-2-divs">
+            <div class="group-2-elements">
+                <a href="#"><img src="img/2-1p.png" alt=""></a>
+                <h2>Title here</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="group-2-elements">
+                <a href="#"><img src="img/2-2p.png" alt=""></a>
+                <h2>Title here</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="group-2-elements">
+                <a href="#"><img src="img/2-3p.png" alt=""></a>
+                <h2>Title here</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ****************group-3********************** -->
+
+
+    <div class="group-3">
+        <img id="group-3-bg-img" src="img/3-2p.png" alt="">
+
+        <div class="group-3-divs">
+            <div class="group-3-img">
+                <img src="img/3-1p.png" alt="">
+            </div>
+            <div class="flex-2">
+                <div class="group-3-heading">
+                    <h1>Oriental Taste</h1>
+                </div>
+                <div class="group-3-para">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis odio rerum deleniti corrupti
+                        ipsam nostrum!</p>
+                </div>
+                <div class="order-now-button-2">
+                    <p>Order Now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------group-4----------------------------- -->
+
+
+    <div class="group-4">
+        <div class="group-4-1">
+            <div class="group-4-header">
+                <h2>Statistics</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo quae exercitationem sapiente, fugiat
+                    velit
+                    beatae.</p>
+            </div>
+        </div>
+        <div class="group-4-divs">
+            <div class="circle-1">
+                <h3>123</h3>
+                <p>OUTLETS</p>
+            </div>
+            <div class="circle-2">
+                <h3>100</h3>
+                <p>CHEFS</p>
+            </div>
+            <div class="circle-3">
+                <h3>300</h3>
+                <p>MENU</p>
+            </div>
+            <div class="circle-4">
+                <h3>30</h3>
+                <p>COUNTRY</p>
+            </div>
+        </div>
+        <div class="group-4-imgs">
+            <div class="group-4-img-1">
+                <img src="img/1-4p.png" alt="">
+            </div>
+            <div class="group-4-img-2">
+                <img src="img/vector_smart_object_1.png" alt="">
+            </div>
+            <div class="group-4-img-3">
+                <img src="img/vector_smart_object_2.png" alt="">
+            </div>
+            <div class="group-4-img-4">
+                <img src="img/vector_smart_object_3.png" alt="">
+            </div>
+            <div class="group-4-img-5">
+                <img src="img/vector_smart_object_4.png" alt="">
+            </div>
+            <div class="group-4-img-6">
+                <img src="img/vector_smart_object_5.png" alt="">
+            </div>
+            <div class="group-4-img-7">
+                <img src="img/Vector Smart Object (Double Click to Edit) (10).png" alt="">
+            </div>
+            <div class="group-4-img-8">
+                <img src="img/vector_smart_object_1.png" alt="">
+            </div>
+            <div class="group-4-img-9">
+                <img src="img/vector_smart_object_1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------------group-5-------------------------- -->
+
+
+    <div class="group-5">
+
+        <img id="group-5-bg-img" src="img/5-2p.png" alt="">
+
+        <div class="group-5-divs">
+            <div class="group-5-flex">
+                <div class="group-5-heading">
+                    <h1>Chicken Grill</h1>
+                </div>
+                <div class="group-5-para">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis odio rerum deleniti
+                        corrupti
+                        ipsam nostrum!</p>
+                </div>
+                <div class="order-now-button-3">
+                    <p>Order Now</p>
+                </div>
+            </div>
+            <div class="group-5-img">
+                <img src="img/5-1p.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------group-6--------------------- -->
+
+
+    <div class="group-6">
+        <img id="group-6-bg-img" src="img/6-2p.png" alt="">
+        <div class="group-6-divs">
+            <div class="lenora">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur, ut reiciendis laborum error
+                    quo!</p>
+                <h1>Lenora Fields</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------group-7----------------------------- -->
+
+
+    <div class="group-7">
+        <div class="group-7-head">
+            <h1>Subscribe</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolore aut ullam animi a veniam?</p>
+        </div>
+        <div class="shape-holder-2">
+            <div class="your-email">
+                <p class="text-12">Your Email</p>
+            </div>
+            <div class="button-7">
+                SUBSCRIBE
+            </div>
+        </div>
+        <div class="group-7-imgs">
+            <div class="group-7-img-1">
+                <img src="img/1-4p.png" alt="">
+            </div>
+            <div class="group-7-img-2">
+                <img src="img/vector_smart_object_1.png" alt="">
+            </div>
+            <div class="group-7-img-3">
+                <img src="img/vector_smart_object_2.png" alt="">
+            </div>
+            <div class="group-7-img-4">
+                <img src="img/vector_smart_object_3.png" alt="">
+            </div>
+            <div class="group-7-img-5">
+                <img src="img/vector_smart_object_4.png" alt="">
+            </div>
+            <div class="group-7-img-6">
+                <img src="img/vector_smart_object_5.png" alt="">
+            </div>
+            <div class="group-7-img-7">
+                <img src="img/Vector Smart Object (Double Click to Edit) (10).png" alt="">
+            </div>
+            <div class="group-7-img-8">
+                <img src="img/vector_smart_object_1.png" alt="">
+            </div>
+            <div class="group-7-img-9">
+                <img src="img/vector_smart_object_1.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ------------------------group-8----------------------------- -->
+
+    <div class="group-8">
+        <div class="group-8-divs">
+            <div class="col-1">
+                <p id="group-8-head" class="title-here">TITLE HERE</p>
+                <p class="title-here-section">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+                    dignissim nunc,id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+                <div class="social-media">
+                    <div class="icon group">
+                        <img src="img/instagram.png" alt="" width="36" height="36">
+                        <img src="img/facebook.png" alt="" width="36" height="36">
+                        <img src="img/twitter.png" alt="" width="36" height="36">
+                        <img src="img/whatsapp.png" alt="" width="36" height="36">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p id="group-8-head" class="about">ABOUT</p>
+                <p>History</p>
+                <p>Our Team</p>
+                <p>Brand Guidelines</p>
+                <p>Terms &amp; Condition</p>
+                <p>Privacy Policy</p>
+
+            </div>
+            <div class="col-3">
+                <p id="group-8-head" class="services">SERVICES</p>
+                <p>How to Order</p>
+                <p>Our Product</p>
+                <p>Order Status</p>
+                <p>Promo</p>
+                <p>Payment Method</p>
+
+            </div>
+            <div class="col-4">
+                <p id="group-8-head" class="other">OTHER</p>
+                <p>Contact Us</p>
+                <p>Help</p>
+                <p>Privacy</p>
+            </div>
+        </div>
+
+</body>
+
+</html>
